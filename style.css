@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin: 2rem;
+}
+.flash{
+    opacity: 0.2;
+}
+.userflash{
+    opacity: 0.5;
+    transition: 0.2s;
+}
